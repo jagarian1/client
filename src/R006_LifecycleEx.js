@@ -18,5 +18,5 @@ class R006_LifecycleEx extends Component {
         )
     }
 }
-
+//log log 12 27
 export default R006_LifecycleEx;
