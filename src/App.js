@@ -6,7 +6,8 @@ import './App.css';
 //import ImportComponent from './R003_ImportComponent';
 //import LifecycleEx from './R004_LifecycleEx';
 //import LifecycleEx from  './R005_LifecycleEx';
-import LifecycleEx from  './R006_LifecycleEx';
+//import LifecycleEx from  './R006_LifecycleEx';
+import LifecycleEx from './R007_LifecycleEx';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ warning: LF will be replaced by CRLF in src/App.js.
 The file will have its original line endings in your working directory  
  * 경고 : bora.txt에서 LF는CRLF로 대체됩니다.
 파일은 작업 디렉토리에 원래 줄 끝이 있습니다.
+해결 : git config --global core.autocrlf true
  * 
  */
 export default App;
