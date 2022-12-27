@@ -131,3 +131,7 @@ git submodule init 서브모듈경로
 
 git submodule update 서브모듈경로
 서브모듈의 변경사항을 적용합니다.(저장소의 최신커밋을 추적하지 않습니다.)
+
+
+
+추가 :  Software Engineer Manager Freelancer
