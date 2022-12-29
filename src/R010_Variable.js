@@ -10,14 +10,14 @@ class R010_Varliable extends Component {
     componentDisMount() {
         var varName = 'react';
         console.log('varNmae1='+varName);
-        //var varName2 = '200' //'varname' is already define no-redeclare 
+        //var varName = '200' //'varname' is already define no-redeclare 
         console.log('varNmae2='+varName);
 
         let letName = 'react';
         console.log('letName1='+letName);
         
-        // let letName = '200' // Parsing error: Identifier 'letName' has already been declared
-        letName = 'react200';
+        //let letName = '200' // Parsing error: Identifier 'letName' has already been declared
+        //letName = 'react200';
         
         const constName = 'react';
         console.log('constName='+constName);

@@ -5,18 +5,24 @@ import React from 'react';
 import './App.css';
 //import ImportComponent from './R003_ImportComponent';
 // import LifecycleEx from './R007_LifecycleEx';
-import LifecycleEx from './R008_LifecycleEx';
+// import Variable from './R010_Variable';
+import SpreadOperator from './R011_SpreadOperator';
 
 function App() {
   return (
     <div>
       <h1>Start React 200! JeromeM</h1>
-       <p>HTML 적용하기</p>
-        <p>CSS 적용하기</p>
+       {/* <p>HTML 적용하기</p>
+        <p>CSS 적용하기</p> */}
       {/* <ImportComponent></ImportComponent> */}
-      <LifecycleEx
+      {/* <LifecycleEx
           prop_value = 'FromApp.js'
-        />
+        /> */}
+        {/* <Variable/> */}
+        <SpreadOperator/>
+        <p className="app-intro">
+        <h2>to get started, edit <code>Src/App.js</code> and save to reload</h2>
+        </p>
 
     </div>
   );
