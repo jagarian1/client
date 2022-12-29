@@ -6,7 +6,8 @@ import './App.css';
 //import ImportComponent from './R003_ImportComponent';
 // import LifecycleEx from './R007_LifecycleEx';
 // import Variable from './R010_Variable';
-import SpreadOperator from './R011_SpreadOperator';
+// import SpreadOperator from './R011_SpreadOperator';
+import ClassPrototype from './R012_ClassPrototype';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           prop_value = 'FromApp.js'
         /> */}
         {/* <Variable/> */}
-        <SpreadOperator/>
+        <ClassPrototype/>
         <p className="app-intro">
         <h2>to get started, edit <code>Src/App.js</code> and save to reload</h2>
         </p>
