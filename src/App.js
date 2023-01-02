@@ -45,6 +45,10 @@ export default App;
   * git init 
   * git branch localID 
   * git switch origin localID
+  * git remote add <name> <url> 명령어는 url으로 원격 저장소를 등록
+  * git remote -v   //확인         
+  * origin  https://github.com/jagarian1/client.git (fetch)
+  * origin  https://github.com/jagarian1/client.git (push)
   * git add .
   * git commit -m 'UpdatContents' //띠어쓰기하면 오류닙니다.
   * git status --상태보기

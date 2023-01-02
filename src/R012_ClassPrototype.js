@@ -28,13 +28,16 @@ class ClassPrototype extends Component {
                 this.number2 = num2;
             }
             showNum() {
-                 
+                console.log('--------------------------------------');
                 console.log(`2. react_${this.number2}`);
                 console.log(`2. react2_${this.number2}`);
                 console.log(`2. react_${this.number2}`); // '와 ` 의 차이점은.......
                 /*eslint no-template-curly-in-string: "error"*/
                 // eslint-disable-next-line no-template-curly-in-string
                 console.log(`Time:   ${12 * 60 * 60 * 1000}`);
+                console.log('--------------------------------------');
+                const props = {id: "someId"}
+                console.log(`https://robohash.org/${props.id}?size=200x200`);
             }
         } 
 
